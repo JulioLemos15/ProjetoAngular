@@ -1,0 +1,100 @@
+body {
+
+    padding: 0;
+
+    margin: 0px;
+
+    background-color: #454d6b;
+
+}
+#container{
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', ser;
+}
+.form-corpo{
+    background-color: rgba(19, 19, 19, 0.3);
+
+    padding: 40px;
+
+    border-radius: 2px;
+
+    width:500px;
+}
+.titulo{
+    padding-bottom: 20px;
+
+    opacity: 0.8;
+
+    color: #fff;
+
+    justify-content: space-around;
+
+}
+.card-titulo::after{
+    content: "";
+
+    width: 70px;
+
+    height: 1px;
+    
+    justify-content: space-around;
+
+    background-color: #fff;
+
+    display: block;
+
+    margin-top: -17px;
+
+    margin-left: -5px;
+}
+.card-corpo{
+    color: #fff;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+}
+.card-content-area{
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+}
+.card-footer {
+
+    text-align: center;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+    color: #fff;
+
+    text-decoration: none;
+
+}
+.submit{
+
+    width: 250px;
+
+    height: 40px;
+
+    background-color: #a13854;
+
+    border-radius: 5px;
+
+    border: none;
+
+    color:#e1e1e1;
+
+    margin: 10px 0;
+
+}
